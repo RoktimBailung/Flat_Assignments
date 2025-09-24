@@ -8,14 +8,14 @@ The FST for this task uses a network of states and epsilon ($\epsilon$) transiti
 
 #### Files
 
-All files for this assignment are located in the `flat_assignment_3/` folder:
+All files for this assignment are located in the `flat_assignment_2/` folder:
 * `symbols.txt`: The symbol table for all digits and letters.
 * `digit_to_word.txt`: The FST definition with multi-state transitions for each word.
 * `test_input.txt`: A sample input string to demonstrate the FST.
 
 #### How to Compile and Run
 
-To run this FST, navigate to the `flat_assignment_3/` directory and use the following commands:
+To run this FST, navigate to the `flat_assignment_2/` directory and use the following commands:
 ```bash
 # Compile the FST definition
 fstcompile --isymbols=symbols.txt --osymbols=symbols.txt digit_to_word.txt > digit_to_word.fst
